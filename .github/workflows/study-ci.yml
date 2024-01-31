@@ -28,7 +28,6 @@ jobs:
         uses: actions/setup-node@v3
         with: 
           node-version: 18.18.2
-          cache: 'yarn'
 
       # Runs a single command using the runners shell
       - name: Node 버전 확인
